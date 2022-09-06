@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  background: #222029;
+  color: aqua;
+  text-align: center;
+  overflow: scroll;
+}
+.main {
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContactDiv {
+  background-color: rgb(14, 25, 82);
+  vertical-align: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 5px;
+  border: solid rgb(24, 178, 255) 1px;
+}
+.firstCol {
+  width: 60px;
+  height: 60px;
+  border: solid black 1px;
+  border-radius: 50px;
+  font-weight: bold;
+  background-color: rgb(93, 123, 243);
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+.secondCol {
+  vertical-align: top;
+
+  width: 300px;
+  display: inline-block;
+}
+.secondCol i {
+  margin: 10px;
+  padding: 2px;
+}
+.secondCol button {
+  border-radius: 5px;
+  margin: 2px;
+  font-size: medium;
+  background-color: transparent;
+  border: 0px;
+  color: aqua;
+}
+.search {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.para {
+  margin-top: 0;
+}
